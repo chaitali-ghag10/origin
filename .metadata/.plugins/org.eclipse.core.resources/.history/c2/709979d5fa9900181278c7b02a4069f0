@@ -1,0 +1,21 @@
+
+public class DemoStringEqual {
+
+	public static void main(String[] args) {
+		String name = "citi";
+		System.out.println("Value for name:"+name);
+		
+		String name1="citi";
+		System.out.println("Value for name1:"+name);
+
+		
+		if(name1.equals(name)) {
+			System.out.println("Equal");
+		}
+		else {
+			System.out.println("Not Equal");
+		}
+
+	}
+
+}

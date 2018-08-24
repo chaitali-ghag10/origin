@@ -1,0 +1,9 @@
+import com.myinterfaces.StudentFileIO;
+import com.myinterfaces.StudentIO;
+import com.pojo.Student;
+
+public class Test implements StudentFileIO, StudentIO {
+
+	
+
+}

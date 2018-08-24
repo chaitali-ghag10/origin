@@ -1,0 +1,8 @@
+package com.myAbstract;
+
+abstract public class Shape {
+	
+	abstract public double area();
+	
+
+}

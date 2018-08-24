@@ -1,0 +1,18 @@
+package com.pojo;
+
+public class Employee extends Person {
+	
+	private int empId;
+	private double empSalary;
+	
+	public Employee() {
+		empId =0;
+		empSalary=0;
+	}
+	
+	public Employee(int empId,double empSalary) {
+		this.empId = empId;
+		this.empSalary = empSalary;
+	}
+
+}

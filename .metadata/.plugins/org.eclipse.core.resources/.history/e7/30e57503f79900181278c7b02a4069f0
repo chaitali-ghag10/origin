@@ -1,0 +1,15 @@
+
+public class DemoString {
+
+	public static void main(String[] args) {
+	
+	String name = "citi";
+	System.out.println("Value for name:"+name);
+	name.concat(",Pune");
+	System.out.println("Value for name:"+name);
+	
+	
+
+	}
+
+}

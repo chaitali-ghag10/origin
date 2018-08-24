@@ -1,0 +1,21 @@
+
+public class DemoString {
+
+	public static void main(String[] args) {
+	
+	String name = "citi";
+	System.out.println("Value for name:"+name);
+	name =name.concat(",Pune");
+	System.out.println("Value for name:"+name);
+	
+	System.out.println("Substring:"+name.substring(3));
+	
+	System.out.println("Prefix:"+name.startsWith("c"));
+	
+	System.out.println("IndexOf:"+name.indexOf('i'));
+	
+	System.out.println("Compare to:"+name.compareToIgnoreCase("c"));
+
+	}
+
+}

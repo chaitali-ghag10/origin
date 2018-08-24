@@ -1,0 +1,9 @@
+
+public class DemoCommandLiene {
+
+	public static void main(String[] args) {
+	System.out.println("No. of arguments"+args.length);
+
+	}
+
+}

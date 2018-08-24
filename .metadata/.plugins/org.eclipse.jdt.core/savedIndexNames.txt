@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\Grad57\Desktop\citiTraining\.metadata\.plugins\org.eclipse.jdt.core
+3324654280.index

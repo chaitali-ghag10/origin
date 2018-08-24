@@ -1,0 +1,12 @@
+import com.pojo.Employee;
+
+public class TestEmployeeIO {
+
+	public static void main(String[] args) {
+		EmployeeIO employeeIO = new EmployeeIO();
+			
+			
+		
+	}
+
+}

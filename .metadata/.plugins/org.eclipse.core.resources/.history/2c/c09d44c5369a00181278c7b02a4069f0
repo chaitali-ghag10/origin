@@ -1,0 +1,8 @@
+package com.pojo;
+
+public class Snippet {
+	public static void main(String[] args) {
+		System.out.println("Name:"+readStudents[i].getName());
+	}
+}
+

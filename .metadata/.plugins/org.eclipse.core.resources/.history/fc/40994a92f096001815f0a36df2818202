@@ -1,0 +1,25 @@
+
+public class Something {
+
+	public static void main(String[] args) {
+		int[] array = {12,34,44,54,34,55,65,78,90,23,90};
+		int i=0;
+		System.out.println("While:\n");
+
+		while(i<array.length) {
+			System.out.print(array[i]+"\t");
+			i++;
+		}
+		
+		i=0;
+
+		System.out.println("\nDo-while:\n");
+		
+		do {
+			System.out.print(array[i]+"\t");
+			i++;
+		}while (i<array.length);
+		
+	}
+
+}

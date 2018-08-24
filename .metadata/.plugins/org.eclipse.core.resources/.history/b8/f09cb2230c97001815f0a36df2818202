@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class DemoArrayList {
+
+	public static void main(String[] args) {
+		ArrayList list = new ArrayList();
+		list.add(10);
+		lit.add(new Integer(234));
+		list.add(90);
+		list.add(10);
+		list.add(234);
+		list.add(67);
+
+	}
+
+}

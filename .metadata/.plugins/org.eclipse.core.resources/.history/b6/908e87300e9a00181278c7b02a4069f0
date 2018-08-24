@@ -1,0 +1,11 @@
+import java.io.File;
+
+public class Filehandling1 {
+
+	public static void main(String[] args) {
+		File myFile =new File("myfile.txt");
+		System.out.println("File created successfully");
+
+	}
+
+}

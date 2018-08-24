@@ -1,0 +1,9 @@
+
+public class AraayOperations {
+
+	public static void main(String[] args) {
+		int [] numbers = {12,34,56,67,89,45,56};
+		
+	}
+
+}

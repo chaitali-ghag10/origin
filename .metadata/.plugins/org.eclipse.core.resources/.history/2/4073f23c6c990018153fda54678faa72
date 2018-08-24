@@ -1,0 +1,6 @@
+
+public interface AnimalInterface {
+	public static final String name;
+	
+
+}

@@ -1,0 +1,14 @@
+package com.pojo;
+
+import java.io.FileOutputStream;
+
+public class DemoSerialize {
+
+	public static void main(String[] args) {
+		Student st = new Student(23, 450, "abc");
+		
+		FileOutputStream fo = new FileOutputStream("Student.txt");
+		
+	}
+
+}

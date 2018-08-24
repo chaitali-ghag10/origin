@@ -1,0 +1,9 @@
+
+public class DemoJagged {
+
+	public static void main(String[] args) {
+		int [][] values = new int [3][];
+
+	}
+
+}

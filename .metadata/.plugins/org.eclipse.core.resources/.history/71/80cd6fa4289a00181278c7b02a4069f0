@@ -1,0 +1,36 @@
+import com.myinterfaces.StudentFileIO;
+import com.myinterfaces.StudentIO;
+import com.pojo.Student;
+
+public class Test implements StudentFileIO, StudentIO {
+
+	@Override
+	public Student[] readFromUser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void writeToUser(Student[] students) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Student[] readStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int writeStudents(Student[] student) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+public class DemoReadData {
+
+	public static void main(String[] args) {
+		InputStreamReader rd= new InputStreamReader(System.in);
+		
+		int value = rd.read();
+
+}
+}

@@ -1,0 +1,6 @@
+package com.myinterfaces;
+
+public interface StudentFileIO {
+	Student[]
+
+}

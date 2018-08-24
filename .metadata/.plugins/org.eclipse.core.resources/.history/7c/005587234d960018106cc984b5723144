@@ -1,0 +1,11 @@
+
+public class Medicine {
+	
+	String medicineName;
+	float medicinePrice;
+
+	public static void main(String[] args) {
+		
+	}
+
+}

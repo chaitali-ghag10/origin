@@ -1,0 +1,31 @@
+import java.util.*;
+
+public class TestPerson {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		Person p = new Person();
+		
+		System.out.println("Enter the name:");
+		String accepted_name = in.next();
+		p.setName(accepted_name);
+		
+		System.out.println("Enter the age:");
+		int accepted_age = in.nextInt();
+		p.setAge(accepted_age);
+		p.display();
+		
+		System.out.println("Enter the name:");
+		accepted_name = in.next();
+		
+		System.out.println("Enter the age:");
+		accepted_age = in.nextInt();
+		
+		Person p1 = new Person(accepted_age,accepted_name);
+		p1.display();
+		
+		in.close();
+		
+	}
+
+}

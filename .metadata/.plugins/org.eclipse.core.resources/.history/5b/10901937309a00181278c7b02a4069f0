@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+import com.myinterfaces.StudentFileIO;
+import com.myinterfaces.StudentIO;
+import com.pojo.Student;
+
+public class StudentImpl implements StudentFileIO, StudentIO {
+
+	@Override
+	public Student[] readFromUser() {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter the number of studets:");
+		int no_of_students =in.nextInt();
+		
+		Student[] students = new Student[no_of_students];
+		
+		String name;
+		int roll_no,total;
+		
+		for(int i=0;i<no_of_students;i++) {
+			System.out.println("Enter name:\n");
+			name=in.nextLine();
+			
+			System.out.println("Enter roll no:\n");
+			roll_no=in.nextInt();
+			
+			System.out.println("Enter total marks:");
+			total=in.nextInt();
+		}
+		
+		
+		return null;
+	}
+
+	@Override
+	public void writeToUser(Student[] students) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Student[] readStudents() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int writeStudents(Student[] student) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

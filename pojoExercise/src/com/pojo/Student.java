@@ -1,0 +1,33 @@
+package com.pojo;
+
+import java.util.Arrays;
+
+public class Student {
+	String name;
+	int[] marks = new int[5];
+	int rollno;
+	
+	public Student() {
+		name = "Undefined";
+		Arrays.fill(marks, 0);
+		rollno=0;	
+		
+	}
+	
+	public Student(String name,int[] marks,int rollno) {
+		this.name=name;
+		this.marks=Arrays.copyOf(marks, marks.length);
+		this.rollno = rollno;
+		
+	}
+	
+	public void display() {
+		System.out.println("-----Available student details------");
+		System.out.println("\nName:"+name+"\n\nRoll no:"+rollno);
+		System.out.println("Marks:\n");
+		for(int x:marks) {
+			System.out.print(x+"\t");
+		}
+	}
+
+}

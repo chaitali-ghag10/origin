@@ -1,0 +1,31 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Filehandling1 {
+
+	public static void main(String[] args) {
+		
+		/*try {
+			File myFile =new File("myfile.txt");
+			myFile.createNewFile();
+			System.out.println("File created successfully");
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+*/
+		
+		try {
+			FileWriter fw = new FileWriter("somename.txt",true);
+			fw.write("Citi");
+			fw.close();
+			System.out.println("File Writing successful!");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

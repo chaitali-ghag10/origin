@@ -1,0 +1,33 @@
+
+public class DemoString {
+
+	public static void main(String[] args) {
+	
+	String name = "citi";
+	System.out.println("Value for name:"+name);
+	name =name.concat(",Pune");
+	System.out.println("Value for name:"+name);
+	
+	System.out.println("Substring:"+name.substring(3));
+	
+	System.out.println("Prefix:"+name.startsWith("c"));
+	
+	System.out.println("IndexOf:"+name.indexOf('i'));
+	
+	System.out.println("Compare to:"+name.compareToIgnoreCase("citi,Pune"));
+	
+	System.out.println("CharAt:"+name.charAt(5));
+	
+	System.out.println("Length:"+name.length());
+	
+	System.out.println("Last Index of:"+name.lastIndexOf('i'));
+
+	StringBuffer buf = new StringBuffer(name);
+	System.out.println("Reverse:"+buf.reverse());
+	
+	String forTrim ="          This";
+	System.out.println("Trim:"+forTrim.trim());
+	
+	}
+
+}

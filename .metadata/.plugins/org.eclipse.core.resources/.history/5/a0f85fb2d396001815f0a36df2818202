@@ -1,0 +1,14 @@
+
+public class DemoArray {
+
+	public static void main(String[] args) {
+	   int[] numbers = new int[3];
+	   
+	   numbers[0] = 100;
+	   numbers[1] = 300;
+	   numbers[2] = 200;
+	   
+
+	}
+
+}

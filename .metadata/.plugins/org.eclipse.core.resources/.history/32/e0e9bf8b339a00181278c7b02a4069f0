@@ -1,0 +1,13 @@
+import com.myinterfaces.StudentFileIO;
+import com.myinterfaces.StudentIO;
+import com.pojo.Student;
+
+public class Test  {
+	StudentImpl s=new StudentImpl();
+	
+	Student[] students = s.readFromUser();
+	
+	int returnValue =s.writeStudents(students);
+	
+
+}

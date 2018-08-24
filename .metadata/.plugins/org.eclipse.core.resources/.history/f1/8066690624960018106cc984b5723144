@@ -1,0 +1,19 @@
+import java.util.*;
+
+public class TestPerson {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		Person p = new Person();
+		System.out.println("Enter the name:");
+		p.setName();
+		p.setAge();
+		p.display();
+		
+		Person p1 = new Person(20,"ABC");
+		p1.display();
+		
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class CatImpl implements AnimalInterface {
+
+	@Override
+	public void favFood() {
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class TestDate {
+
+	public static void main(String[] args) {
+		Date d= new Date(10,"December",1980);
+		d.display();
+		
+
+	}
+
+}
